@@ -51,7 +51,7 @@ export const analyzeFoodImage = async (base64Image: string, lang: 'ar' | 'en'): 
     `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash-image',
+      model: 'gemini-2.5-flash-lite',
       contents: {
         parts: [
           {
@@ -110,7 +110,7 @@ export const analyzeFoodText = async (foodName: string, lang: 'ar' | 'en'): Prom
     `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3-flash-preview',
+      model: 'gemini-2.5-flash-lite',
       contents: prompt,
       config: {
         responseMimeType: "application/json",
