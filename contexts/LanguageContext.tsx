@@ -4,7 +4,7 @@ export type Language = 'ar' | 'en';
 
 export const translations = {
   ar: {
-    appTitle: "30 يوم بلا سكر",
+    appTitle: "30 Days Sugar Free",
     nav: {
       tracker: "التحدي",
       scanner: "فحص الطعام",

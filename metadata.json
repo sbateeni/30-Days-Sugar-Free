@@ -1,6 +1,6 @@
 {
-  "name": "تحدي 30 يوم بلا سكر",
-  "description": "تطبيق يساعدك على الالتزام بتحدي منع السكر لمدة 30 يومًا، مع دليل للأطعمة المسموحة والممنوعة، وماسح ذكي للطعام باستخدام الذكاء الاصطناعي.",
+  "name": "30 Days Sugar Free",
+  "description": "App to help you stick to a 30-day no sugar challenge, with a guide for allowed/forbidden foods and an AI food scanner.",
   "requestFramePermissions": [
     "camera"
   ]
